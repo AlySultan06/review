@@ -1,0 +1,81 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+section{
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+    border-radius: 13px;
+    max-width: 300px;
+    
+   
+}
+
+section  .star{
+    background-color: rgba(255, 255, 255, 0.041);
+    border-radius: 50%;
+    width: 20px;
+    padding: 10px;
+
+}
+
+section h1{
+color: white;
+
+}
+
+
+section p{
+line-height: 1.3;
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+}
+
+section .stars{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+section .stars span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(216, 12%, 54%);
+    background-color: rgba(255, 255, 255, 0.041);
+    border-radius: 50%;
+    padding: 16px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+section .stars span:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+button{
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    font-size: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.active{
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white !important;
+}
